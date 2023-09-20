@@ -1,0 +1,112 @@
+
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+
+}
+
+menu{
+ list-style: none;
+ padding: 50px;
+ 
+}
+
+#menu li {
+    display: inline;
+   
+    
+}
+
+#menu a {
+    color: rgb(0, 0, 0);
+    display: list-item; 
+    text-decoration: none ;
+    display: inline;
+    padding: 50px;
+    margin: 40px;
+    text-align: right;
+} 
+
+#menu a :hover{
+    color: rgb(230, 67, 208);
+}
+    
+
+header {
+    background: linear-gradient(90deg, rgba(196,0,111,1) 7%, rgba(157,33,147,1) 100%, rgba(6,51,215,0.523328081232493) 100%);
+    padding:  20px;
+  margin-top: 2%;
+   
+}
+
+ 
+.apresentação img {
+   width: 360px;
+   padding: 30px 0px;
+   display: flex;
+}
+
+h1 {
+    font-size: 30px;
+    color: rgb(241, 241, 241);
+    font-family: 'Inter', sans-serif; 
+    line-height: 180%;
+    text-align: right;
+    height: 300px;
+    margin: auto;
+}
+
+h3{
+    font-size: 30px;
+    color: beige;
+    font-family: 'Inter', sans-serif; 
+    line-height: 170%;
+    margin: 50px;
+    text-align: right;
+    height: 190px;
+    margin: auto;
+
+    
+}
+
+.right {
+    flex: 5;
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.left {
+    flex: 9;
+    text-align: center;
+}
+
+.btn {
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family:  'Inter', sans-serif;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 14px;
+    
+   
+
+
+}
+
+.btnContact {
+    background: rgb(84, 52, 114);
+    color: aqua;
+    margin-top: 30px;
+    
+}
+
+.btnContact:hover {
+    background: rgb(83, 26, 116);
+    color: aqua;
+}
+
